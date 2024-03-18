@@ -15,3 +15,6 @@ up:
 
 down:
 	${DOCKER_COMPOSE} down
+
+bash:
+	${DOCKER_COMPOSE_PHP_FPM_EXEC} bash

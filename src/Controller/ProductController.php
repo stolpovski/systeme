@@ -15,6 +15,7 @@ class ProductController extends AbstractController
     {
         $product = new Product();
         $product->setName('iPhone');
+        $product->setPrice(100);
 
         // tell Doctrine you want to (eventually) save the Product (no queries yet)
         $entityManager->persist($product);
